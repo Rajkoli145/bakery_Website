@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Bakery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div class="top-bar"></div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/ChatGPT Image Apr 14, 2025, 08_14_22 PM.png" alt="Bakery Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="shop.html" class="active">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="recipe.html">Recipe<span class="new-badge">NEW</span></a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="cart.html"><img src="images/bakery.png" alt="Cart"></a>
+                <a href="#" class="search-toggle"><img src="images/search.png" alt="Search"></a>
+                <a href="wishlist.html"><img src="images/wishlist.png" alt="Wishlist"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="shop-section">
+            <div class="container">
+                <h1 class="animate__animated animate__fadeIn">Our Products</h1>
+                <div class="product-filters animate__animated animate__fadeIn">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="bread">Bread</button>
+                    <button class="filter-btn" data-filter="pastries">Pastries</button>
+                    <button class="filter-btn" data-filter="cakes">Cakes</button>
+                </div>
+                <div class="product-grid">
+                    <div class="product-item animate__animated animate__fadeInUp" data-category="bread">
+                        <div class="product-image">
+                            <img src="images/pumpernickel.webp" alt="Pumpernickel">
+                        </div>
+                        <div class="product-content">
+                            <h3>Pumpernickel</h3>
+                            <p class="price">
+                                <span class="old-price">$5.0</span>
+                                <span>$3.0</span>
+                            </p>
+                            <div class="product-actions">
+                                <button class="add-to-cart">Add to Cart</button>
+                                <button class="wishlist-btn" title="Add to Wishlist">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item animate__animated animate__fadeInUp" data-category="bread" style="animation-delay: 0.2s;">
+                        <div class="product-image">
+                            <img src="images/pretzels.webp" alt="Pretzel">
+                        </div>
+                        <div class="product-content">
+                            <h3>Pretzel</h3>
+                            <p class="price">
+                                <span class="old-price">$9.2</span>
+                                <span>$7.2</span>
+                            </p>
+                            <div class="product-actions">
+                                <button class="add-to-cart">Add to Cart</button>
+                                <button class="wishlist-btn" title="Add to Wishlist">
+                                    <i class="fa fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item animate__animated animate__fadeInUp" data-category="pastries" style="animation-delay: 0.3s;">
+                        <div class="product-image">
+                            <img src="images/Croissant.webp" alt="Croissant">
+                        </div>
+                        <div class="product-content">
+                            <h3>Croissant</h3>
+                            <p class="price">
+                                <span class="old-price">$4.5</span>
+                                <span>$3.5</span>
+                            </p>
+                            <div class="product-actions">
+                                <button class="add-to-cart">Add to Cart</button>
+                                <button class="wishlist-btn" title="Add to Wishlist">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item animate__animated animate__fadeInUp" data-category="pastries" style="animation-delay: 0.4s;">
+                        <div class="product-image">
+                            <img src="images/Danish.webp" alt="Danish">
+                        </div>
+                        <div class="product-content">
+                            <h3>Danish</h3>
+                            <p class="price">
+                                <span class="old-price">$5.5</span>
+                                <span>$4.5</span>
+                            </p>
+                            <div class="product-actions">
+                                <button class="add-to-cart">Add to Cart</button>
+                                <button class="wishlist-btn" title="Add to Wishlist">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item animate__animated animate__fadeInUp" data-category="cakes" style="animation-delay: 0.5s;">
+                        <div class="product-image">
+                            <img src="images/Chocolate Cake.webp" alt="Chocolate Cake">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate Cake</h3>
+                            <p class="price">
+                                <span class="old-price">$25.0</span>
+                                <span>$20.0</span>
+                            </p>
+                            <div class="product-actions">
+                                <button class="add-to-cart">Add to Cart</button>
+                                <button class="wishlist-btn" title="Add to Wishlist">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item animate__animated animate__fadeInUp" data-category="cakes" style="animation-delay: 0.6s;">
+                        <div class="product-image">
+                            <img src="images/Cheesecake.jpg" alt="Cheesecake">
+                        </div>
+                        <div class="product-content">
+                            <h3>Cheesecake</h3>
+                            <p class="price">
+                                <span class="old-price">$22.0</span>
+                                <span>$18.0</span>
+                            </p>
+                            <div class="product-actions">
+                                <button class="add-to-cart">Add to Cart</button>
+                                <button class="wishlist-btn" title="Add to Wishlist">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item animate__animated animate__fadeInUp" data-category="bread" style="animation-delay: 0.7s;">
+                        <div class="product-image">
+                            <img src="images/Baguette.jpg" alt="Baguette">
+                        </div>
+                        <div class="product-content">
+                            <h3>Baguette</h3>
+                            <p class="price">
+                                <span class="old-price">$5.0</span>
+                                <span>$3.0</span>
+                            </p>
+                            <div class="product-actions">
+                                <button class="add-to-cart">Add to Cart</button>
+                                <button class="wishlist-btn" title="Add to Wishlist">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item animate__animated animate__fadeInUp" data-category="bread" style="animation-delay: 0.8s;">
+                        <div class="product-image">
+                            <img src="images/Whole Wheat.jpg" alt="Whole Wheat">
+                        </div>
+                        <div class="product-content">
+                            <h3>Whole Wheat</h3>
+                            <p class="price">
+                                <span class="old-price">$5.0</span>
+                                <span>$3.0</span>
+                            </p>
+                            <div class="product-actions">
+                                <button class="add-to-cart">Add to Cart</button>
+                                <button class="wishlist-btn" title="Add to Wishlist">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Search Overlay -->
+    <div class="search-overlay">
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search for products...">
+            <button class="close-search">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="search-results">
+                <!-- Search results will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bakery. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/shop.js"></script>
+</body>
+</html>
